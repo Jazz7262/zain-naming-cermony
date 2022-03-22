@@ -4,7 +4,7 @@ import App from "./components/App.jsx";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
-// var openModal = document.querySelector("#open-modal-btn");
-// openModal.click();
-// openModal.style.display = "none";
+var openModal = document.querySelector("#open-modal-btn");
+openModal.click();
+openModal.style.display = "none";
 
